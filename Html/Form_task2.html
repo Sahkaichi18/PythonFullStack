@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <head>
     <title>Hospital management form</title>
-    <h1 style = "text-align: center;">Hospital Management Form</h1>
-
-    <style>
-        .container{
-            text-align: center;
-        }
-    </style>
+    <h1>Hospital Management Form</h1><br>
 </head>
 <body>
-    <div class = "container">
     <form>
-        <h2>Patient details</h2>
+        <h2>Patient Details</h2>
         <label for = "fname">Full name :</label>
         <input type = "text" name = "fname"><br><br>
 
@@ -25,17 +18,97 @@
             <input type = "radio" name  = "gender" value = "Female">
             <label for =  "one">Female</label><br><br>
 
-         <label for = "email">email :</label>
+            <label for = "phone">Phone :</label>
+            <input type = "text" name = "phone"><br><br>
+
+         <label for = "email">Email :</label>
         <input type = "text" name = "email"><br><br>
 
          <label for = "password">Password :</label>
         <input type = "password" name = "password"><br><br>
 
-        <label for = "address">Address :</label>
-        <input type = "textarea" name = "address" ><br><br>
+        <label for="address">Address :</label>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
 
+        <h2>Appointment Details</h2>
+
+        <label for = "department">Departments :</label>
+        <select name = "Department" id = "department">
+            <option value = "Cardiology">Cardiology</option>
+            <option value = "Orthopedics">Orthopedics</option>
+            <option value = "Neurology">Neurology</option>
+            <option value = "Pediatrics">Pediatrics</option>
+            <option value = "Gynecology & Obstetrics">Gynecology & Obstetrics</option>
+            <option value = "Dermatology">Dermatology</option>
+            <option value = "Ophthalmology">Ophthalmology</option>
+            <option value = "Otolaryngolog">Otolaryngolog</option>
+            <option value = "Nephrology">Nephrology</option>
+            <option value = "Gastroenterology">Gastroenterology</option>
+            <option value = "Pulmonology">Pulmonology</option>
+            <option value = "Oncology">Oncology</option>
+            <option value = "Endocrinology">Endocrinology</option>
+            <option value = "Rheumatology">Rheumatology</option>
+            <option value = "Urology">Urology</option>
+            <option value = "Psychology">Psychology</option>
+            <option value = "Anesthesiology">Anesthesiology</option>
+            <option value = "Radiology">Radiology</option>
+            <option value = "Pathology">Pathology</option>
+            <option value = "Dentistry">Dentistry</option>
+        </select><br><br>
+
+            <label for = "preference">Doctor's Preference(if any) :</label>
+            <input type = "text" name = "preference" id="preference" placeholder="Enter preference"><br><br>
+
+            <label for = "appointment">Appointment date :</label>
+            <input type = "date" name = "appointment" id="appointment"> <br><br>
+
+            <label for = "reason">Symptoms :</label>
+            <textarea for = "symptoms" name = "symptoms" rows = "4" cols = "30"></textarea><br><br>
+
+            <h2>Emergency Contact</h2>
+
+            <label for = "gname">Name of Guardian :</label>
+            <input type = "text" name = "gname"><br><br>
+
+            <label for = "relation">Relationship :</label>
+            <select name="Relationship" id="relationship">
+            <option value="Father">Father</option>
+            <option value="Mother">Mother</option>
+            <option value="Son">Son</option>
+            <option value="Daughter">Daughter</option>
+            <option value="Brother">Brother</option>
+            <option value="Sister">Sister</option>
+            <option value="Uncle">Uncle</option>
+            <option value="Aunt">Aunt</option>
+            <option value="Nephew">Nephew</option>
+            <option value="Niece">Niece</option>
+            <option value="Cousin">Cousin</option>
+            <option value="Grandpa">Grandpa</option>
+            <option value="Grandma">Grandma</option>
+            <option value="Grandson">Grandson</option>
+            <option value="Granddaughter">Granddaughter</option>
+            <option value="Father in law">Father in law</option>
+            <option value="Mother in law">Mother in law</option>
+            <option value="Brother in law">Brother in law</option>
+            <option value="Sister in law">Sister in law</option>
+            </select><br><br>
+
+            <label for = "phone">Phone :</label>
+            <input type = "text" name = "phone"><br><br>
+
+            <label>Payment Method:</label><br>
+            <input type="radio" id="cash" name="payment" value="cash">
+            <label for="cash">Cash</label><br>
+
+            <input type="radio" id="card" name="payment" value="card">
+            <label for="card">Card</label><br>
+
+            <input type="radio" id="insurance" name="payment" value="insurance">
+            <label for="insurance">Insurance</label><br><br>
+
+        <input type = "submit" value = "Submit">
+        <input type = "reset" value = "Reset">
 
     </form>
-    </div>
 </body>
 </html>
