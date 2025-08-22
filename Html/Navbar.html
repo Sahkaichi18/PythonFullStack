@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar example 1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar container */
+        nav {
+            background-color: #333;   /* dark background */
+            padding: 10px 0;
+        }
+
+        /* Remove default list styling */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;              /* arrange horizontally */
+            justify-content: center;    /* center the items */
+        }
+
+        /* Style each nav item */
+        nav ul li {
+            margin: 0 20px ;
+        }
+
+        /* Style links */
+        nav ul li a {
+            text-decoration: none;
+            color: white;          /* white text */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        /* Hover effect */
+        nav ul li a:hover {
+            color: #ff9800; /* orange hover */
+        }
+
+        /* Content section */
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Navbar example 1</h1>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+        <img src="https://www.collinsdictionary.com/images/full/apple_158989157.jpg" width="150" />
+        <br><br>
+        <button>Button</button><br><br>
+        <marquee behavior = "slide" direction = "right"><strong>This site is building in progress</strong></marquee>
+    </div>
+</body>
+</html>
