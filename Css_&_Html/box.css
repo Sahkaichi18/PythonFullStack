@@ -1,0 +1,30 @@
+.box{
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+}
+
+.box2{
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 0px;
+    background-image: url("https://w0.peakpx.com/wallpaper/25/957/HD-wallpaper-megatron-transformers.jpg");
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border : 2px solid black;
+    margin : 0px 150px;    
+}
+.change{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border : 2px solid black;
+    margin : 10px 0px 10px 150px;
+    background-image: url("https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png")
+
+}
