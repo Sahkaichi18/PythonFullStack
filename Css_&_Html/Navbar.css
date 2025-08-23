@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.nbar nav{
+    padding: 20px 10px;
+    background-color : black;
+    border : 2px solid red;
+    width : 100%;
+}
+
+.nbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;              /* arrange horizontally */
+    justify-content: center;  
+}
+
+.nbar ul li {
+    margin: 20px 30px;
+}
+
+.nbar a{
+    text-decoration: none;
+    color: rgb(199, 8, 8);   
+}
+
+
+/*Order now page*/
+
+.container{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    justify-content: space-around;
+    margin: 10px;
+}
+.container summary{
+    padding-left: 70px;
+}
+
+.container p{
+    padding-left: 70px;
+}
+.container strong{
+    padding-left: 100px;
+}
+.container label{
+    padding-left: 70px;
+}
+
+.container button{
+    padding-left: 70px;
+}
