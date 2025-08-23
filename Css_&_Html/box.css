@@ -8,7 +8,7 @@
     height: 500px;
     width: 700px;
     border: 2px solid black;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 0px;
     background-image: url("https://w0.peakpx.com/wallpaper/25/957/HD-wallpaper-megatron-transformers.jpg");
 }
 
@@ -25,10 +25,10 @@
     border-radius: 50%;
     border : 2px solid black;
     margin : 10px 0px 10px 150px;
-    background-image: url("https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png");
+    background-image: url("https://png.pngtree.com/png-vector/20250303/ourmid/pngtree-ripe-mango-fruit-with-leaf-for-healthy-snack-png-image_15699037.png");
 }
 .change:hover{
-    background-image: url("https://pngfre.com/wp-content/uploads/mango-74-284x300.png");
+    background-image: url("https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png");
 }
 .rotate{
     height : 400px;
@@ -43,8 +43,7 @@
     background-color: yellow;
     display: flex;
     justify-content: space-around;
-    padding: 40px;
-    
+    padding: 40px;   
 }
 
  @keyframes loader {
