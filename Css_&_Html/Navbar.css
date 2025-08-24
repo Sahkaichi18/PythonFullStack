@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWVsbG93JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
 }
 
 .nbar nav{
@@ -7,6 +8,7 @@ body{
     background-color : black;
     border : 2px solid red;
     width : 100%;
+    
 }
 
 .nbar ul {
@@ -14,7 +16,8 @@ body{
     padding: 0;
     margin: 0;
     display: flex;              /* arrange horizontally */
-    justify-content: center;  
+    justify-content: center;
+      
 }
 
 .nbar ul li {
@@ -29,27 +32,24 @@ body{
 
 /*Order now page*/
 
-.container{
-    height: 200px;
-    width: 250px;
-    border: 2px solid black;
-    justify-content: space-around;
-    margin: 10px;
-}
-.container summary{
-    padding-left: 70px;
+.products {
+    display: flex;               /* places child divs side by side */
+    gap: 20px;                   /* spacing between cards */
+    justify-content: center; /* align left, can use center/space-around */
+    flex-wrap: wrap;        /* makes all cards equal height */
 }
 
-.container p{
-    padding-left: 70px;
-}
-.container strong{
-    padding-left: 100px;
-}
-.container label{
-    padding-left: 70px;
+.fruit-name {
+    display: block;   /* forces name below image */
+    margin-top: 5px;
+    font-size: 16px;
 }
 
-.container button{
-    padding-left: 70px;
+.container1, .container2, .container3 {    
+    height : 200px;              /* both take equal width */
+    min-width: 250px;            /* so they don’t shrink too much */
+    font-family: Arial, sans-serif;
+    padding: 10px;
 }
+
+
