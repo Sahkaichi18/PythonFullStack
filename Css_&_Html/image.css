@@ -1,0 +1,22 @@
+.shadow{
+    height : 500px;
+    width : 900px;
+    border : 4px solid black;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/FIA_F1_Austria_2023_Nr._1_%281%29.jpg/960px-FIA_F1_Austria_2023_Nr._1_%281%29.jpg");
+    border-radius: 20px;
+    transition: all ease 1s;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+
+}
+
+.shadow:hover{
+    height : 500px;
+    width : 900px;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/FIA_F1_Austria_2023_Nr._55_%281%29.jpg/1200px-FIA_F1_Austria_2023_Nr._55_%281%29.jpg");
+    box-shadow: 2px 2px 7px black, -2px -2px 7px black;
+    background-position: center;
+    margin-top: 100px;
+}
