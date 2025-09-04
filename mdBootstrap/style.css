@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffe4c7; /* fallback bg */
+}
+
+/* Background container */
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+  background-color: #ffe4c7;
+}
+
+/* Parallax container */
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px; /* creates depth */
+}
+
+/* Group of layers */
+.parallax-group {
+  position: relative;
+  height: 300vh; /* taller so you can scroll */
+  transform-style: preserve-3d;
+}
+
+/* Default layer style */
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Each layer with depth + triangle mountains */
+.layer1 {
+  background: #d1f5f5;
+  transform: translateZ(-6px) scale(7);
+  margin-top: 600px;
+}
+.layer1::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-image: 
+    linear-gradient(135deg, transparent 66%, #d1f5f5 66.01%),
+    linear-gradient(45deg, #d1f5f5 34%, transparent 34.01%);
+  background-size: 200px 100%;
+  background-repeat: repeat-x;
+}
+
+.layer2 {
+  background: #b8eaea;
+  transform: translateZ(-5px) scale(6);
+  margin-top: 900px;
+}
+.layer2::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-image: 
+    linear-gradient(135deg, transparent 66%, #b8eaea 66.01%),
+    linear-gradient(45deg, #b8eaea 34%, transparent 34.01%);
+  background-size: 200px 100%;
+  background-repeat: repeat-x;
+}
+
+.layer3 {
+  background: #8cdcdc;
+  transform: translateZ(-4px) scale(5);
+  margin-top: 1200px;
+}
+.layer3::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-image: 
+    linear-gradient(135deg, transparent 66%, #8cdcdc 66.01%),
+    linear-gradient(45deg, #8cdcdc 34%, transparent 34.01%);
+  background-size: 200px 100%;
+  background-repeat: repeat-x;
+}
+
+.layer4 {
+  background: #64cfcf;
+  transform: translateZ(-3px) scale(4);
+  margin-top: 1500px;
+}
+.layer4::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-image: 
+    linear-gradient(135deg, transparent 66%, #64cfcf 66.01%),
+    linear-gradient(45deg, #64cfcf 34%, transparent 34.01%);
+  background-size: 200px 100%;
+  background-repeat: repeat-x;
+}
+
+.layer5 {
+  background: #2fbaba;
+  transform: translateZ(-2px) scale(3);
+  margin-top: 1800px;
+}
+.layer5::before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-image: 
+    linear-gradient(135deg, transparent 66%, #2fbaba 66.01%),
+    linear-gradient(45deg, #2fbaba 34%, transparent 34.01%);
+  background-size: 200px 100%;
+  background-repeat: repeat-x;
+}
+
+/* Optional filler layer */
+.fill {
+  height: 80%;
+  background: #009999;
+  transform: translateZ(-1px) scale(2);
+  margin-top: 2100px;
+}
+
+/* Content section */
+.content {
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  z-index: 10;
+  margin-top: 2500px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*home*/
+body{
+    font-family: "League Spartan", sans-serif;
+    background-image: url("Images/planeBg.jpg");
+    background-size: cover;
+}
+
+.container1 nav {
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+    padding-top: 10px 30px;
+    background-color : #00AEEF;
+    border : 2px solid black;
+    width : 100%;
+    box-sizing: border-box;
+     position: fixed;   /* makes navbar sticky */
+    top: 0;            /* sticks to the very top */
+    left: 0;
+    z-index: 1000;
+
+}
+
+.container1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;              /* arrange horizontally */
+}
+
+.container1 .logo img {
+    display: block;
+}
+
+.container1 ul li{
+    margin: 0px 30px;
+
+}
+.container1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.container1 a:hover{
+    color: white;      /* golden highlight on hover */
+
+}
