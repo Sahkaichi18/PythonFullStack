@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var c = parseInt(prompt("Enter marks of C programming"));
+        var java = parseInt(prompt("Enter marks of java"));   
+        var python = parseInt(prompt("Enter marks of python"));
+        var dsa = parseInt(prompt("Enter marks of DSA"));
+        var web = parseInt(prompt("Enter marks of Web Development"));
+
+        var total = c + java + python + dsa + web;
+        console.log("Total marks = " + total);
+
+        var percentage = (total / 500 *100);
+        console.log("Percentage = " + percentage);
+
+        if(c >= 100 || java >= 100 || python >= 100 || dsa >= 100 || web >= 100){
+            console.log("Invalid marks");
+            percentage = 0;
+        }
+        else{
+        
+
+        if(c < 35 || java < 35 || python < 35 || dsa < 35 || web < 35){
+            console.log("Failed");
+        }
+        else{
+
+        if(percentage >= 90){
+            console.log("Grade A");
+        }
+        else if(percentage >= 80){
+            console.log("Grade B");
+        }
+          else if(percentage >= 70){
+            console.log("Grade C");
+        }
+          else if(percentage >= 60){
+            console.log("Grade D");
+        } 
+        else if(percentage >= 35){
+            console.log("Grade D");
+        }   
+        else{
+            console.log("Failed");
+        }
+    }
+}
+
+    </script>
+</body>
+</html>
