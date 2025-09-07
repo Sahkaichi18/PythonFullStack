@@ -9,16 +9,27 @@
 
     <script>
         console.log("Indian Breakfast menu");
-        console.log("Idli (2 pcs) with Sambar & Chutney------------₹40");
-        console.log("Medu Vada (2 pcs) with Sambar & Chutney-------₹50");
+        var food1 = "Idli";
+        console.log("Idli------------------------------------------₹40");
+        var food2 = "Medu Vada";
+        console.log("Medu Vada-------------------------------------₹50");
+        var food3 = "Masala Dosa";
         console.log("Masala Dosa-------------------–-------------- ₹70");
+        var food4 = "Plain Dosa";
         console.log("Plain Dosa------------------------------------₹60");
+        var food5 = "Upma";
         console.log("Upma------------------------------------------₹50");
+        var food6 = "Misal pav";
         console.log("Misal pav-------------------------------------₹70");
+        var food7 = "Poha";
         console.log("Poha------------------------------------------₹40");
+        var food8 = "Puri Bhaji";
         console.log("Puri Bhaji------------------------------------₹60");
-        console.log("Aloo Paratha with curd & pickle---------------₹80");
+        var food9 = "Aloo Paratha";
+        console.log("Aloo Paratha----------------------------------₹80");
+        var food10 = "Bread Butter Jam";
         console.log("Bread Butter Jam------------------------------₹40");
+        var food11 = "Tea/Coffee";
         console.log("Tea/Coffee------------------------------------₹20");
 
         var order = (prompt("Enter your food item"));
@@ -69,7 +80,7 @@
 
     console.log("Do you want a bill? (yes/no)");
     var bill = prompt("Enter your choice");
-    if (bill === "yes"){
+    if (bill === "yes" || bill === "y"){
         console.log("You have ordered" +" "+ order + " "+ "with quantity" + " " + quantity);
         console.log("Your total bill is ₹" + price);
     }
