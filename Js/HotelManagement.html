@@ -9,16 +9,73 @@
 
     <script>
         console.log("Indian Breakfast menu");
-        var food1 = "Idli";
-        console.log("Idli (2 pcs) with Sambar & Chutney------------₹40")
-        var food2 = "Medu Vada";
-        console.log("Medu Vada (2 pcs) with Sambar & Chutney-------₹50")
-        var food3 = "Masala Dosa";
-        console.log("Masala Dosa-------------------–-------------- ₹70")
-        var food4 = "Plain Dosa";
-        console.log("Plain Dosa------------------------------------₹60")
-        var food5 = "Upma";
-        console.log("Upma------------------------------------------₹50")
+        console.log("Idli (2 pcs) with Sambar & Chutney------------₹40");
+        console.log("Medu Vada (2 pcs) with Sambar & Chutney-------₹50");
+        console.log("Masala Dosa-------------------–-------------- ₹70");
+        console.log("Plain Dosa------------------------------------₹60");
+        console.log("Upma------------------------------------------₹50");
+        console.log("Misal pav-------------------------------------₹70");
+        console.log("Poha------------------------------------------₹40");
+        console.log("Puri Bhaji------------------------------------₹60");
+        console.log("Aloo Paratha with curd & pickle---------------₹80");
+        console.log("Bread Butter Jam------------------------------₹40");
+        console.log("Tea/Coffee------------------------------------₹20");
+
+        var order = (prompt("Enter your food item"));
+        if(prompt === null || order === ""){
+            console.log("No item selected");
+        }
+        else{
+        var quantity = parseInt(prompt("Enter the quantity"));
+        var price;
+        switch(order){
+            case food1:
+                price = 40 * quantity;
+                break;
+            case food2:
+                price = 50 * quantity;
+                break;
+            case food3:
+                price = 70 * quantity;
+                break;
+            case food4:
+                price = 60 * quantity;
+                break;
+            case food5:
+                price = 50 * quantity;
+                break;
+            case food6:
+                price = 70 * quantity;
+                break;
+            case food7:
+                price = 40 * quantity;
+                break;
+            case food8:
+                price = 60 * quantity;
+                break;
+            case food9:
+                price = 80 * quantity;
+                break;
+            case food10:
+                price = 40 * quantity;
+                break;  
+            case food11:
+                price = 20 * quantity;
+                break;  
+            default:
+                console.log("Invalid item");
+        }
+    }
+
+    console.log("Do you want a bill? (yes/no)");
+    var bill = prompt("Enter your choice");
+    if (bill === "yes"){
+        console.log("You have ordered" +" "+ order + " "+ "with quantity" + " " + quantity);
+        console.log("Your total bill is ₹" + price);
+    }
+    else{
+        console.log("Thank you! Visit again");
+    }
 
     </script>
     
