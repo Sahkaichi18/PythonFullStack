@@ -87,6 +87,25 @@
         console.log("Thank you! Visit again");
     }
 
+    var pay = prompt("How do you wish to pay? (card/UPI/cash)");
+    switch(pay){
+        case "card":
+            console.log("You have selected card payment.");
+            var cardNumber = prompt("Enter your card number:");
+            var expiryDate = prompt("Enter card expiry date (MM/YY):");
+            break;
+        case "UPI":
+            console.log("You have selected UPI payment. Please scan the QR code.");
+            var upiId = prompt("Enter your UPI ID:");
+            break;
+        case "cash":
+            console.log("You have selected cash payment. Please pay the amount on the counter.");
+            break;
+        default:
+            console.log("Invalid payment method selected.");
+    }
+    console.log("Thank you for dining with us! Have a great day!");
+
     </script>
     
 </body>
