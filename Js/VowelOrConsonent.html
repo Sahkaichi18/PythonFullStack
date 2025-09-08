@@ -7,7 +7,26 @@
 </head>
 <body>
     <script>
-        
+        var alphabet = prompt("Enter any alphabet");
+        if(alphabet == null || alphabet.length == 0){
+            console.log("No input provided");
+        }
+        if(alphabet.length > 1){
+            console.log("Enter only one alphabet");
+        }
+        else{  
+            if(alphabet >= 'A' && alphabet >='Z' || alphabet >= 'a' || alphabet >= 'z'){
+                if(alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U' || alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u'){
+                    console.log(alphabet + " " + "is a vowel");
+                }
+                else{
+                    console.log(alphabet + " " + "is a consonent");
+                }
+            }
+            else{
+                console.log("Enter only alphabets");
+            }
+        }
     </script>
 </body>
 </html>
