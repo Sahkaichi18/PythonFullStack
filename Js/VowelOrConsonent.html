@@ -11,7 +11,10 @@
         if(alphabet == null || alphabet.length == 0){
             console.log("No input provided");
         }
-        if(alphabet.length > 1){
+        else if(!isNaN(alphabet)){
+            console.log("Provide only one alphabet and no number");
+        }
+        else if(alphabet.length > 1){
             console.log("Enter only one alphabet");
         }
         else{  
