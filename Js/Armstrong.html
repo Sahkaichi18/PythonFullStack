@@ -13,8 +13,8 @@
         var sum = 0;
 
         while(temp > 0){
-            var digit = temp % 10;
-            sum += digit*digit*digit;
+            var digit = temp % 10; //give last digit (for example 153......gives 3)
+            sum += digit*digit*digit; //(3*3*3 = 27...similarly....5*5*5 = 125.....1*1*1= 1........1+27+125 = 153)
             temp = parseInt(temp/10);
         }
         if(sum == data){
