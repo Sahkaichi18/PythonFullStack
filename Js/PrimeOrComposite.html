@@ -15,7 +15,7 @@
         else{
             var isPrime = true;
 
-            for(var i = 2; i <= Math.sqrt(num); i++){
+            for(var i = 2; i <= Math.sqrt(num); i++){ //for(let i = 2; i <= parseInt(data/2); i++){}.....can use parseInt instead of Math.srt(num)
                 if(num % i === 0){
                     isPrime = false;
                     break;
