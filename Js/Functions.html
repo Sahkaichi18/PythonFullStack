@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Function Working</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        // function data1(){
-        //     console.log("Yo!"); //Default function
-        // }
-        // data1();
+      // function data1(){
+      //     console.log("Yo!"); //Default function
+      // }
+      // data1();
 
-        // function data2(a,b){   //Parameters ---->(a,b).......This is parametereised function
-        //     console.log(a+b);
-        // }
-        // data2(10,20);          //arguments
+      // function data2(a,b){   //Parameters ---->(a,b).......This is parametereised function
+      //     console.log(a+b);
+      // }
+      // data2(10,20);          //arguments
 
-        //Multiplication code using functions
+      //Multiplication code using functions
 
-        // function data3(a,b){
-        //     for(let num = a; num <= b; num++){
-        //         console.log("The multiplication of"+" "+num+ ":");
-        //          for (let i = 1; i <= 10; i++) {
-        //         console.log( num +" " + " X "+ " "+ i + " "+ "="+ " "+ (num * i));
-        //         }
-        //         console.log("------------------------");
-        //     }
-        // }
-        // data3(2,30)
+      // function data3(a,b){
+      //     for(let num = a; num <= b; num++){
+      //         console.log("The multiplication of"+" "+num+ ":");
+      //          for (let i = 1; i <= 10; i++) {
+      //         console.log( num +" " + " X "+ " "+ i + " "+ "="+ " "+ (num * i));
+      //         }
+      //         console.log("------------------------");
+      //     }
+      // }
+      // data3(2,30);
 
-        function data4(p,q){
-            
+      function data4(p, q) {
+        for (let num = p; num <= q; num++) {
+             var isprime = true
+          if(num<=1){
+                 isprime = false
+          }else{
+            for(let i = 2;i<=parseInt(num/2);i++){
+                if(num%i==0){
+                    isprime = false
+                    break
+                }
+            }
+          }
+
+          if(isprime){
+             console.log(num+" "+"is a prime number")
+          }else{
+            console.log(num+" "+"is not a prime number")
+          }
+
+          
         }
-
+    }
+      data4(2, 20);
     </script>
-</body>
+  </body>
 </html>
