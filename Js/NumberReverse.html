@@ -8,11 +8,21 @@
 <body>
     <script>
         var num = parseInt(prompt("Please enter more than 1 digit"));
-        if(num.lenght<=0,1){
-            console.log("Please enter more than 1 digit")
-        }
-        else if(num.lenght==null){
-            console.log("Please enter more than 1 digit")
+
+        if (isNaN(num) || num < 10) {
+            console.log("Please enter more than 1 digit number");
+        } else {
+            var original = num;
+            var reversed = 0;
+
+            while (num > 0) {
+                var digit = num % 10;            // get last digit
+                reversed = reversed * 10 + digit; // build reversed number
+                num = parseInt(num / 10);       // remove last digit
+            }
+
+            console.log("Original number: " + original);
+            console.log("Reversed number: " + reversed);
         }
     </script>
 </body>
