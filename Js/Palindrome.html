@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Palindrome Check</title>
+</head>
+<body>
+  <script>
+    let str = prompt("Enter a string:");
+    str = str.toLowerCase(); // ignore case
+
+    let isPalindrome = true;
+    let len = str.length;
+
+    // Compare characters from start and end
+    for (let i = 0; i < len / 2; i++) {
+      if (str[i] !== str[len - 1 - i]) {
+        isPalindrome = false;
+        break;
+      }
+    }
+
+    if (isPalindrome) {
+      console.log("It is a Palindrome ✅");
+    } else {
+      console.log("Not a Palindrome ❌");
+    }
+  </script>
+</body>
+</html>
