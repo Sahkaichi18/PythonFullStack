@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Check</title>
+</head>
+<body>
+    <h1>Your form is coming from password.html file</h1>
+</body>
+<span id = "username"></span>
+<span id = "email"></span>
+<span id = "password"></span>
+
+<script>
+    var username = localStorage.getItem("Username");
+    var email = localStorage.getItem("Email");
+    var password = localStorage.getItem("Password");
+    document.getElementById("username").innerHTML = "Username: " + username + "<br>";
+    document.getElementById("email").innerHTML = "Email: " + email + "<br>";
+    document.getElementById("password").innerHTML = "Password: " + password + "<br>";
+</script>
+</html>
