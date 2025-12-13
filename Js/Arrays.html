@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arrays</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Learning Arrays</h1>
 
     <script>
-        // var a = [1,2,3,4,5,6,7,8,9,10]
-        // console.log(a);
+      // var a = [1,2,3,4,5,6,7,8,9,10]
+      // console.log(a);
 
-        // for (let i in a ){
-        //     console.log(a[i])
-        //     console.log(i)
-        // }
+      // for (let i in a ){
+      //     console.log(a[i])
+      //     console.log(i)
+      // }
 
-        //Basic Questions
-        //Create an array and print it.
+      //Basic Questions
+      //Create an array and print it.
 
-        // How do you access the first element of an array?
+      // How do you access the first element of an array?
 
-        // How do you access the last element of an array?
+      // How do you access the last element of an array?
 
-        // What does array.length return?
+      // What does array.length return?
 
-        // Change the 3rd element of an array to 100.
+      // Change the 3rd element of an array to 100.
 
-        var s = [10, 20, 30, 40, 50, 60];
+      // var s = [10, 20, 30, 40, 50, 60];
 
-        console.log(s);
+      // console.log(s);
 
-        console.log(s[0]);
+      // console.log(s[0]);
 
-        console.log(s.length - 1);
+      // console.log(s.length - 1);
 
-        console.log(s.length);
+      // console.log(s.length);
 
-        console.log(s[3]=100);
+      // console.log(s[2]=100);
 
-        console.log(s);
+      // console.log(s);
+
+      // LEVEL 2: Loop + Array Basics
+
+      // Print all elements of an array using a for loop.
+
+      // Print indexes and values of an array.
+
+      // Find the sum of all elements in an array.
+
+      // Count how many elements are in the array.
+
+      // Print only even numbers from an array.
+
+      var b = [12, 3, 5, 76, 8999, 77];
+        for (let i in b) {
+          console.log("Index:", i, "Value:", b[i]);
+        }
+        var sum = 0;
+        for(let i in b){
+            sum += b[i];
+        }
+        console.log("Sum of all elements:", sum);
+
+        var count = 0;
+        for(let i in b){
+            count++
+        }
+        console.log("count :", count)
+
+        console.log("Even numbers in the array:");
+        for(let i in b){
+            if(b[i] % 2 === 0){
+                console.log(b[i]);
+            }
+        }
+      
+
     </script>
-</body>
+  </body>
 </html>
