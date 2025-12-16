@@ -6,3 +6,5 @@ print(a+5)
 
 b = "name"
 print(type(b))
+
+#Operators 
