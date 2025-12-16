@@ -60,3 +60,21 @@ print(m or n)   # logical OR
 print(not m)    # logical NOT
 print(not n)    # logical NOT
 print(m and not n)  # logical AND with NOT
+
+#decision making
+#1.conditional statements
+#2 control statemtents
+
+#if elif else example
+
+a = 10
+b = 20
+c = 15 
+
+if a >b and  a >c:
+    print("a is the largest")
+elif b > a and b > c:
+    print("b is the largest")
+else:
+    print("c is the largest")
+    
