@@ -8,3 +8,12 @@ b = "name"
 print(type(b))
 
 #Operators 
+
+#Arithmetic Operators
+
+x = 10
+y = 4
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)          
