@@ -67,9 +67,9 @@ print(m and not n)  # logical AND with NOT
 
 #if elif else example
 
-a = 10
-b = 20
-c = 15 
+a = 100000000000
+b = 220
+c = 19005 
 
 if a >b and  a >c:
     print("a is the largest")
@@ -78,5 +78,5 @@ elif b > a and b > c:
 else:
     print("c is the largest")
 
-    
+
 
