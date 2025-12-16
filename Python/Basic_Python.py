@@ -69,14 +69,6 @@ print(m and not n)  # logical AND with NOT
 
 a = 100000000000
 b = 220
-c = 19005 
+c = 1900500000000000000000
 
-if a >b and  a >c:
-    print("a is the largest")
-elif b > a and b > c:
-    print("b is the largest")
-else:
-    print("c is the largest")
-
-
-
+if a > b and  a > c or a > b and a < c:
