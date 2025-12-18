@@ -1,6 +1,5 @@
-num = int(input("Enter a number : "))
-for i in range(99,501):
-    if(num % 2 == 0):
-        print("The even number :", num)
+for i in range(99, 501):
+    if i % 2 == 0:
+        print("Even number:", i)
     else:
-        print("The odd numbers are :", num)
+        print("Odd number:", i)
