@@ -9,11 +9,14 @@ oops = (int(input("Enter the marks for OOPS : ")))
 total = c+java+python+dsa+oops
 print("Your total marks is : ", total)
 
+if (total >= 500):
+    print(total , "You have got invalid marks !")
+
 percentage = total/500 * 100
 print("Your percentage is : ", percentage)
 
 if(percentage > 100):
-    print(percentage, "%","It is an Invalid percentage")
+    print(percentage, "%","It is an Invalid percentage !")
 elif(percentage >= 90):
     print("You achieved A grade with", percentage ,"%")
 elif(percentage >= 75):
@@ -23,7 +26,7 @@ elif(percentage >= 60):
 elif(percentage >= 35):
     print("You achieved D grade with", percentage ,"%")
 else :
-    print("You have failed with", percentage ,"%")
+    print("You have F grade with", percentage ,"%")
 
 
 
