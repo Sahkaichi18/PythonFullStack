@@ -13,7 +13,7 @@ percentage = total/500 * 100
 print("Your percentage is : ", percentage)
 
 if(percentage > 100):
-    print(percentage, "It is an Invalid percentage")
+    print(percentage, "%","It is an Invalid percentage")
 elif(percentage >= 90):
     print("You achieved A grade with", percentage ,"%")
 elif(percentage >= 75):
