@@ -6,6 +6,9 @@ python = (int(input("Enter the marks for Python : ")))
 dsa = (int(input("Enter the marks for DSA : ")))
 oops = (int(input("Enter the marks for OOPS : ")))
 
+total = c+java+python+dsa+oops
+print("Your total maerks is : ", total)
+
 
 
 
