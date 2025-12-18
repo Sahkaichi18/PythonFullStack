@@ -15,6 +15,9 @@ if (total >= 500):
 percentage = total/500 * 100
 print("Your percentage is : ", percentage)
 
+if(c>=100 or java>= 100 or python >= 100 or dsa >= 100 or oops >= 100):
+    print("Invalid marks entered")
+
 if(percentage > 100):
     print(percentage, "%","It is an Invalid percentage !")
 elif(percentage >= 90):
