@@ -13,15 +13,15 @@ percentage = total/500 * 100
 print("Your percentage is : ", percentage)
 
 if(percentage >= 90):
-    print("You achieved A grade with", percentage +"%")
+    print("You achieved A grade with", percentage ,"%")
 elif(percentage >= 75):
-    print("You achieved B grade with", percentage +"%")
+    print("You achieved B grade with", percentage ,"%")
 elif(percentage >= 60):
-    print("You achieved C grade with", percentage +"%")
+    print("You achieved C grade with", percentage ,"%")
 elif(percentage >= 35):
-    print("You achieved D grade with", percentage +"%")
+    print("You achieved D grade with", percentage ,"%")
 else :
-    print("You have failed with", percentage +"%")
+    print("You have failed with", percentage ,"%")
 
 
 
