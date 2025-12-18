@@ -9,14 +9,15 @@ oops = (int(input("Enter the marks for OOPS : ")))
 total = c+java+python+dsa+oops
 print("Your total marks is : ", total)
 
+if(c>=100 or java>= 100 or python >= 100 or dsa >= 100 or oops >= 100):
+    print("Invalid marks entered")
+
+
 if (total >= 500):
-    print(total , "You have got invalid marks !")
+    print(total , "You have got invalid total marks !")
 
 percentage = total/500 * 100
 print("Your percentage is : ", percentage)
-
-if(c>=100 or java>= 100 or python >= 100 or dsa >= 100 or oops >= 100):
-    print("Invalid marks entered")
 
 if(percentage > 100):
     print(percentage, "%","It is an Invalid percentage !")
