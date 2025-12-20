@@ -5,8 +5,8 @@ while(a <= b):
     c = 1
     while (c <= 10):
         result = a * c
-        print(a, "X", c, "=", result )
+        print(a, "X", c, "=", result )  #f string ex : (f"{}")
         c += 1
     a += 1
 
-    #f string ex : (f"{}")
+   
