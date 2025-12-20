@@ -7,5 +7,6 @@ while(a <= b):
         result = a * c
         print(a, "X", c, "=", result )
         c += 1
+    a += 1
 
     #f string ex : (f"{}")
