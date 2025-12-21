@@ -9,8 +9,10 @@
 
 num = int(input("Enter a 3-digit number: "))
 
-original = num
-sum_of_cubes = 0
+if num >=100 and num <=999:
+
+    original = num
+    sum_of_cubes = 0
 
 while num > 0:
     digit = num % 10
