@@ -12,11 +12,9 @@ if num >=100 and num <=999:
         sum += digit * digit * digit   
         num //= 10
 
-    if sum == original:
+    if sum == og:
         print(og, "is an Armstrong number")
     else:
-        print(og, "is not an Armstrong number")
-
         print(og, "is not an Armstrong number")
 else:
     print(num ,"is not a 3 digit number")
