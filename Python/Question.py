@@ -4,7 +4,7 @@ num = int(input("Enter a 3 digit number : "))
 
 if num >=100 and num <=999:
 
-    original = num
+    og = num
     sum = 0
 
     while num > 0:
@@ -13,10 +13,10 @@ if num >=100 and num <=999:
         num //= 10
 
     if sum == original:
-        print(original, "is an Armstrong number")
+        print(og, "is an Armstrong number")
     else:
-        print(original, "is not an Armstrong number")
+        print(og, "is not an Armstrong number")
 
-        print(original, "is not an Armstrong number")
+        print(og, "is not an Armstrong number")
 else:
     print(num ,"is not a 3 digit number")
