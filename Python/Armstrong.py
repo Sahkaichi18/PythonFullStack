@@ -9,7 +9,7 @@ if num >=100 and num <=999:
 
     while num > 0:
         digit = num % 10
-        sum += digit * digit * digit   
+        sum += digit * digit * digit   # digit ** 3  (We can use it as well in python)
         num //= 10
 
     if sum == og:
