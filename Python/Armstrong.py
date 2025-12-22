@@ -2,7 +2,7 @@
 
 num = int(input("Enter a 3 digit number : "))
 
-if num >=100 and num <=999:
+if num >= 100 and num <= 999:
 
     og = num
     sum = 0
