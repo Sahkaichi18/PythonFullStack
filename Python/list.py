@@ -18,13 +18,21 @@
 # for i in a:
 #     print(a)
 
-b = [10, 20, 30, 40, 50]
+b = [10, 20, 30, 40, 50, 98, 17, 11, 2]
 
-sum = 0
+# sum = 0
 # for i in range(len(b)):
 #     sum = sum + b[i]
 #     print(sum)
 
 for i in b:
-    sum+=i
-print("The sum is", sum)
+#     sum+=i
+# print("The sum is", sum)
+
+    if i%2==0:
+        print(i," is even number")
+    else:
+        print(i, " is an odd number")
+
+
+
