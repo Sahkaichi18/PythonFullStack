@@ -29,10 +29,20 @@ for i in b:
 #     sum+=i
 # print("The sum is", sum)
 
-    if i%2 == 0:
-        print(i," is an even number")
+    # if i%2 == 0:
+    #     print(i," is an even number")
+    # else:
+    #     print(i," is an odd number")
+
+    if i <= 1:
+        print("It is not a prime number ")
     else:
-        print(i, " is an odd number")
+        for j in range(2, i//2+1): # double slash for making it a whole number and not in point
+            if i % j == 0:
+                print(i, "is not a prime number")
+                break
+        else:
+            print(i, "is a Prime number")
 
 
 
