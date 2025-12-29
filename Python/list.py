@@ -45,7 +45,7 @@ for i in b:
             print(i, "is a Prime number")
 
 
-# armstrong of this number
+
 
 
 
