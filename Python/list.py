@@ -30,7 +30,7 @@ for i in b:
 # print("The sum is", sum)
 
     if i%2==0:
-        print(i," is even number")
+        print(i," is an even number")
     else:
         print(i, " is an odd number")
 
