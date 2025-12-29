@@ -1,7 +1,7 @@
 a = ["data", "science", "python", "java", "html"]
 
-rev = ""
 for i in a:
+    rev = ""          
     for j in i:
-        rev = j+rev
+        rev = j + rev
     print(rev)
