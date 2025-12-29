@@ -15,6 +15,6 @@ for i in a:
 print("Count of vowel is :", vowel)
 print("Count of consonant is :", consonant)
 
-# make the reverse and palindrome of this string
+
 
 
