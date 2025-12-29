@@ -29,7 +29,7 @@ for i in b:
 #     sum+=i
 # print("The sum is", sum)
 
-    if i%2==0:
+    if i%2 == 0:
         print(i," is an even number")
     else:
         print(i, " is an odd number")
