@@ -1,3 +1,6 @@
+#check the palindrome of the given list
+
+
 a = ["data", "science", "python", "java", "html", "madam"]
 
 for word in a:
