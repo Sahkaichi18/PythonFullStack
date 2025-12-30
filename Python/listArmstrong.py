@@ -3,3 +3,6 @@
 b = [159, 133, 393, 904, 204]
 
 print (b)
+
+for num in b:
+    if
