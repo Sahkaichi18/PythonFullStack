@@ -16,8 +16,6 @@
 #         print(og, "is not an Armstrong number")
 
 
-
-
 b = [153, 133, 393, 904, 204]
 
 for num in b:
