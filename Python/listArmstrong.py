@@ -34,3 +34,5 @@ for num in b:
             print(og, "is not an Armstrong number")
     else:
         print(og, "is not a 3-digit number")
+
+# multiple years in a list...check if it is a leap year or not 
