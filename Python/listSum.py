@@ -6,8 +6,10 @@ sum = 0
 #         print(sum)
 
 for Bnum in a:
-    for Snum in Bnum:
-        sum = sum + a[Snum]
-        print(sum)
+        while Bnum > 0:
+            for Snum in Bnum:
+                digit = Bnum % 10
+                sum += a[Snum]
+                num //= 10
 
-        
+                print(sum)
