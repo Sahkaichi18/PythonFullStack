@@ -1,3 +1,5 @@
 #Get the armstrong of the given list
 
-b = [10, 20, 30, 40, 50, 98, 17, 11, 2]
+b = [159, 133, 393, 904, 204]
+
+print (b)
