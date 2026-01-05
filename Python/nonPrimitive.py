@@ -4,8 +4,32 @@ data = {
     3: [2009, 2014, 1153, 1317]
 }
 
-for name in data[1]:  
-    rev = ""
+#Count of vowels and consonants
+
+vowel = 0
+consonant = 0
+
+for name in data[1]:
     for ch in name:
-        rev = ch + rev
-    print(rev)
+        if ch in "aeiouAEIOU":
+            vowel += 1
+        else:
+            consonant += 1
+print("Count of vowel is :", vowel)
+print("Count of consonant is :", consonant)
+
+#Sum of numbers
+for number in data[2]:
+        temp = number
+        sum = 0
+
+        while temp > 0:
+            digit = temp % 10
+            sum += digit
+            temp //= 10
+
+        print("Sum of digits of", number, "is", sum)
+
+
+
+
