@@ -18,7 +18,10 @@ for name in data[1]:
 print("Count of vowel is :", vowel)
 print("Count of consonant is :", consonant)
 
+print("---------------------")
+
 #Sum of numbers
+
 for number in data[2]:
         temp = number
         sum = 0
@@ -29,6 +32,18 @@ for number in data[2]:
             temp //= 10
 
         print("Sum of digits of", number, "is", sum)
+
+print("------------------")
+
+for year in data[3]:
+     if(year % 4 == 0):
+        print(year, "is a leap year")
+     elif(year % 100 == 0):
+        print(year , "is not a leap year")
+     elif(year % 400 == 0):
+        print(year, "is a leap year")
+     else:
+        print(year, "is not a leap year")
 
 
 
