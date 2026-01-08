@@ -1,6 +1,6 @@
 # print("hello world")
 
-# a =10
+# a = 10
 # print(a)
 # print(a+5)
 
@@ -40,11 +40,11 @@
 
 # #comparison operator 
 
-# p = 30
-# q = 40
-
+# p = 40
+# q = 80
 # print(p == q)  # equal to
-# print(p != q)  # not equal to 
+# print(p!= q)  # not equal to 
+# print(q!=p)
 # print(p > q)   # greater than
 # print(p < q)   # less than
 # print(p >= q)  # greater than or equal to
@@ -52,8 +52,8 @@
 
 # #logical operators 
 
-# m = True
-# n = False
+m =  True
+n = False
 
 # print(m and n)  # logical AND
 # print(m or n)   # logical OR        
@@ -79,21 +79,21 @@
 #     print("c is the largest")
 
 
-a = 10
-b = 10
-c = 10
+# a = 10
+# b = 10
+# c = 10
 
-if a == b == c:
-    print("All the values are same. No second largest number.")
+# if a == b == c:
+#     print("All the values are same. No second largest number.")
 
-elif (a >= b and a <= c) or (a <= b and a >= c):
-    print("The second largest number is", a)
+# elif (a >= b and a <= c) or (a <= b and a >= c):
+#     print("The second largest number is", a)
 
-elif (b >= a and b <= c) or (b <= a and b >= c):
-    print("The second largest number is", b)
+# elif (b >= a and b <= c) or (b <= a and b >= c):
+#     print("The second largest number is", b)
 
-else:
-    print("The second largest number is", c)
+# else:
+#     print("The second largest number is", c)
 
 
 
