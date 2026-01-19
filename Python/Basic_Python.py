@@ -5,7 +5,7 @@
 # print(a+5)
 
 # b = "name"
-# print(type(b))
+# print(type(b)) 
 
 # #Operators 
 
@@ -52,8 +52,8 @@
 
 # #logical operators 
 
-m =  True
-n = False
+# m =  True
+# n = False
 
 # print(m and n)  # logical AND
 # print(m or n)   # logical OR        
