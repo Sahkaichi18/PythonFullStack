@@ -1,93 +1,93 @@
-print("Case conversion") 
+# print("Case conversion") 
 
-s = 'hello world'
+# s = 'hello world'
 
-print(s.upper())
+# print(s.upper())
 
-print(s.lower())
+# print(s.lower())
 
-print(s.title())
+# print(s.title())
 
-print(s.capitalize())
+# print(s.capitalize())
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("Search and replace")
+# print("Search and replace")
 
 text = "Python is fun, and python is powerful."
 
 print(text.index('Python'))
 
-print(text.replace("Python", "Java"))
+# print(text.replace("Python", "Java"))
 
-print(text.count("Python"))
+# print(text.count("Python"))
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("Formatting")
+# print("Formatting")
 
-word = "Python"
+# word = "Python"
 
-print(word.strip())
+# print(word.strip())
 
-print(word.lstrip())
+# print(word.lstrip())
 
-print(word.rstrip())
+# print(word.rstrip())
 
-print(word.center(100,'-'))
+# print(word.center(100,'-'))
 
-print(word.ljust(100,'*'))
+# print(word.ljust(100,'*'))
 
-print(word.rjust(100,'*'))
+# print(word.rjust(100,'*'))
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("Validation")
+# print("Validation")
 
-print("Python123".isalnum())
+# print("Python123".isalnum())
 
-print("Hello".isalpha())
+# print("Hello".isalpha())
 
-print(" ".isspace())
+# print(" ".isspace())
 
-print("python".islower())
+# print("python".islower())
 
-print("PYTHON".isupper())
+# print("PYTHON".isupper())
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("Spliting and joining")
+# print("Spliting and joining")
 
-data = "apple,banana,grape"
+# data = "apple,banana,grape"
 
-print(data.split(","))
+# print(data.split(","))
 
-print(data.rsplit(",",1))
+# print(data.rsplit(",",1))
 
-text = "Hello \nWorld"
-print(text.splitlines())
+# text = "Hello \nWorld"
+# print(text.splitlines())
 
-words = ['i', 'love', 'python']
-print("".join(words))
+# words = ['i', 'love', 'python']
+# print("".join(words))
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("String Checking")
+# print("String Checking")
 
-print("HelloWorld".startswith("Hello"))
-print("HellowWorld".endswith("World"))
+# print("HelloWorld".startswith("Hello"))
+# print("HellowWorld".endswith("World"))
 
-print("--------------------------------")
+# print("--------------------------------")
 
-print("Others")
+# print("Others")
 
-print(len("Python"))
+# print(len("Python"))
 
-print(ord('A')) #Ascii values
+# print(ord('A')) #Ascii values
 
-print(chr(65))
+# print(chr(65))
 
-print("My name is {0} and i am {1} years old {2}".format("Alice", 25,""))
+# print("My name is {0} and i am {1} years old {2}".format("Alice", 25,""))
 
 
 
