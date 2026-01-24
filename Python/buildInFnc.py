@@ -1,116 +1,92 @@
-# # print("Case conversion") 
+print("Case conversion")
 
-# # s = 'hello world'
+s = 'hello world'
+print(s.upper())
+print(s.lower())
+print(s.title())
+print(s.capitalize())
 
-# # print(s.upper())
+print("--------------------------------")
 
-# # print(s.lower())
-
-# # print(s.title())
-
-# # print(s.capitalize())
-
-# # print("--------------------------------")
-
-# # print("Search and replace")
+print("Search and replace")
 
 text = "Python is fun, and python is powerful."
-
-# # # print(text.index('Python'))
-
-# # print(text.replace("Python", "Java"))
-
+print(text.index('Python'))
+print(text.replace("Python", "Java"))
 print(text.count("n"))
 
-# # print("--------------------------------")
+print("--------------------------------")
 
-# # print("Formatting")
+print("Formatting")
 
-# # word = "Python"
+word = "Python"
+print(word.strip())
+print(word.lstrip())
+print(word.rstrip())
+print(word.center(100, '-'))
+print(word.ljust(100, '*'))
+print(word.rjust(100, '*'))
 
-# # print(word.strip())
+print("--------------------------------")
 
-# # print(word.lstrip())
+print("Validation")
 
-# # print(word.rstrip())
+print("Python123".isalnum())
+print("Hello".isalpha())
+print(" ".isspace())
+print("python".islower())
+print("PYTHON".isupper())
 
-# # print(word.center(100,'-'))
+print("--------------------------------")
 
-# # print(word.ljust(100,'*'))
+print("Splitting and joining")
 
-# # print(word.rjust(100,'*'))
+data = "apple,banana,grape"
+print(data.split(","))
+print(data.rsplit(",", 1))
 
-# # print("--------------------------------")
+text2 = "Hello \nWorld"
+print(text2.splitlines())
 
-# # print("Validation")
+words = ['i', 'love', 'python']
+print("".join(words))
 
-# print("Python123".isalnum())
+print("--------------------------------")
 
-# # print("Hello".isalpha())
+print("String Checking")
 
-# print(" ".isspace())
+print("HelloWorld".startswith("Hello"))
+print("HellowWorld".endswith("World"))
 
-# # print("python".islower())
+print("--------------------------------")
 
-# # print("PYTHON".isupper())
+print("Others")
 
-# # print("--------------------------------")
+print(len("Python"))
 
-# # print("Spliting and joining")
-
-# data = "apple,banana,grape"
-
-# print(data.split(","))
-
-# # print(data.rsplit(",",1))
-
-# # text = "Hello \nWorld"
-# # print(text.splitlines())
-
-# # words = ['i', 'love', 'python']
-# # print("".join(words))
-
-# # print("--------------------------------")
-
-# # print("String Checking")
-
-# # print("HelloWorld".startswith("Hello"))
-# # print("HellowWorld".endswith("World"))
-
-# # print("--------------------------------")
-
-# # print("Others")
-
-# # print(len("Python"))
-
-print(ord('A')) #Ascii values  (48 to 57 = 0 to 9) (65 to 90 = A to Z (uppercase)) (97 to 122(lowercase))
-
+print(ord('A'))   # ASCII values: 48–57 → 0–9, 65–90 → A–Z, 97–122 → a–z
 print(chr(65))
 
-# # print("My name is {0} and i am {1} years old {2}".format("Alice", 25,""))
+print("My name is {0} and i am {1} years old{2}".format("Alice", 25, "."))
 
+print("--------------------------------")
 
+s = input("Enter string: ")
 
+if len(s) > 1:
+    result = s[0].upper() + s[1:-1] + s[-1].upper()
+else:
+    result = s.upper()
 
+print(result)
 
+print("--------------------------------")
 
-# s = input("Enter string: ")
+s2 = "hello world"
+print(s2.split()[0].upper())
 
-# if len(s) > 1:
-#     result = s[0].upper() + s[1:-1] + s[-1].upper()
-# else:
-#     result = s.upper()
+print("Helloworld".startswith("Hello"))
 
-# print(result)
+print("--------------------------------")
 
-
-# s = "hello world"
-# print(s.split()[0].upper())
-
-# print("Helloworld".startswith("Hello"))
-
-
-
-
-
-
+print(len("Python"))
