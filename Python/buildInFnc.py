@@ -14,13 +14,13 @@
 
 # # print("Search and replace")
 
-# # text = "Python is fun, and python is powerful."
+text = "Python is fun, and python is powerful."
 
 # # # print(text.index('Python'))
 
 # # print(text.replace("Python", "Java"))
 
-# # print(text.count("Python"))
+print(text.count("n"))
 
 # # print("--------------------------------")
 
@@ -44,7 +44,7 @@
 
 # # print("Validation")
 
-# # print("Python".isalnum())
+# print("Python123".isalnum())
 
 # # print("Hello".isalpha())
 
@@ -83,9 +83,9 @@
 
 # # print(len("Python"))
 
-# # print(ord('A')) #Ascii values
+print(ord('A')) #Ascii values  (48 to 57 = 0 to 9) (65 to 90 = A to Z (uppercase)) (97 to 122(lowercase))
 
-# # print(chr(65))
+print(chr(65))
 
 # # print("My name is {0} and i am {1} years old {2}".format("Alice", 25,""))
 
@@ -104,8 +104,11 @@
 # print(result)
 
 
-s = "hello world"
-print(s.split()[0].upper())
+# s = "hello world"
+# print(s.split()[0].upper())
+
+# print("Helloworld".startswith("Hello"))
+
 
 
 
