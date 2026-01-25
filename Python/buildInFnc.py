@@ -19,23 +19,24 @@
 
 # print("Formatting")
 
-word = "  Python      programing  "
+# word = "  Python      programing  "
 # print(word.strip()) #Removes spaces from BOTH left and right sides
 # print(word.lstrip()) #Removes spaces from LEFT side only
 # print(word.rstrip()) #Removes spaces from RIGHT side only
-print(word.center(100, '-')) #Places the word in the center of a string of length 100 and Fills remaining spaces with -
-print(word.ljust(100, '*')) #Left-aligns the word and Fills remaining right side with * until length is 100
-print(word.rjust(100, '*')) #Right-aligns the word and Fills remaining left side with * until length is 100
+# print(word.center(100, '-')) #Places the word in the center of a string of length 100 and Fills remaining spaces with -
+# print(word.ljust(100, '*')) #Left-aligns the word and Fills remaining right side with * until length is 100
+# print(word.rjust(100, '*')) #Right-aligns the word and Fills remaining left side with * until length is 100
 
 # print("--------------------------------")
 
 # print("Validation")
 
-# print("Python123".isalnum())
-# print("Hello".isalpha())
-# print(" ".isspace())
-# print("python".islower())
-# print("PYTHON".isupper())
+# #Returns True if the string contains ONLY alphabets (A–Z, a–z) and digits (0–9) and No spaces, no symbols allowed
+# #Returns True if the string contains ONLY alphabets, if Digits, spaces, symbols then False
+# #Returns True if the string contains ONLY whitespace
+# #Returns True if all alphabetic characters are lowercase
+# #Returns True if all alphabetic characters are uppercase
+# #Returns true if the string conatians number only.
 
 # print("--------------------------------")
 
@@ -45,8 +46,8 @@ print(word.rjust(100, '*')) #Right-aligns the word and Fills remaining left side
 # print(data.split(","))
 # print(data.rsplit(",", 1))
 
-# text2 = "Hello \nWorld"
-# print(text2.splitlines())
+text2 = "Hello \nWorld"
+print(text2.splitlines())
 
 # words = ['i', 'love', 'python']
 # print("".join(words))
