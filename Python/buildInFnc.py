@@ -43,11 +43,11 @@
 # print("Splitting and joining")
 
 # data = "apple,banana,grape"
-# print(data.split(","))
-# print(data.rsplit(",", 1))
+# print(data.split(",")) #Splits a string into a list using the given separator. Here, the separator is ,
+# print(data.rsplit(",",1)) #Splits the string from the right side. 1 means only one split
 
-text2 = "Hello \nWorld"
-print(text2.splitlines())
+# text2 = "Hello \nWorld"
+# print(text2.splitlines()) #Splits the string at line breaks
 
 # words = ['i', 'love', 'python']
 # print("".join(words))
@@ -55,9 +55,8 @@ print(text2.splitlines())
 # print("--------------------------------")
 
 # print("String Checking")
-
-# print("HelloWorld".startswith("Hello"))
-# print("HellowWorld".endswith("World"))
+print("HelloWorld".startswith("Hello")) #Checks whether the string begins with the given value
+print("HellowWorld".endswith("World")) #Checks whether the string ends with the given value
 
 # print("--------------------------------")
 
