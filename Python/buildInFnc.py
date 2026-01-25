@@ -8,24 +8,24 @@
 
 # print("--------------------------------")
 
-print("Search and replace")
+# print("Search and replace")
 
-text = "Python is fun, and python is powerful."
-print(text.index('Python'))
-print(text.replace("Python", "Java"))
-print(text.count("n"))
+# text = "Python is fun, and python is powerful."
+# print(text.index('Python'))
+# print(text.replace("Python", "Java"))
+# print(text.count("n"))
 
 # print("--------------------------------")
 
 # print("Formatting")
 
-# word = "Python"
-# print(word.strip())
-# print(word.lstrip())
-# print(word.rstrip())
-# print(word.center(100, '-'))
-# print(word.ljust(100, '*'))
-# print(word.rjust(100, '*'))
+word = "  Python      programing  "
+# print(word.strip()) #Removes spaces from BOTH left and right sides
+# print(word.lstrip()) #Removes spaces from LEFT side only
+# print(word.rstrip()) #Removes spaces from RIGHT side only
+print(word.center(100, '-')) #Places the word in the center of a string of length 100 and Fills remaining spaces with -
+print(word.ljust(100, '*')) #Left-aligns the word and Fills remaining right side with * until length is 100
+print(word.rjust(100, '*')) #Right-aligns the word and Fills remaining left side with * until length is 100
 
 # print("--------------------------------")
 
